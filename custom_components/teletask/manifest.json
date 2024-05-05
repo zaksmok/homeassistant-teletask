@@ -1,14 +1,14 @@
 {
     "domain": "teletask",
     "name": "Teletask",
-    "documentation": "https://github.com/Tiemooowh/homeassistant-teletask",
-    "issue_tracker": "https://github.com/Tiemooowh/homeassistant-teletask/issues",
+    "documentation": "https://github.com/zaksmok/homeassistant-teletask",
+    "issue_tracker": "https://github.com/zaksmok/homeassistant-teletask/issues",
     "requirements": [
         "pyteletask==1.0.1"
     ],
     "codeowners": [
-        "@tiemooowh"
+        "@zaksmok"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "iot_class": "local_polling"
 }
