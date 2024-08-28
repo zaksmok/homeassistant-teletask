@@ -43,7 +43,7 @@ async def async_setup(hass, config):
     try:
         teletaskModule =  TeletaskModule(hass, config)
         hass.data[DOMAIN] = teletaskModule
-        time.sleep(3)
+        #time.sleep(3)
         await teletaskModule.start()
 
         for platform in SupportedPlatforms:
